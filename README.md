@@ -1,7 +1,7 @@
 # LSSVM-CC
 LSSVM-CC: Ensemble Algorithm of Color Constancy Using Least Square Support Vector Machine
 - Wang Xingguang,01/06/2023
-
+- The LSSVM toolbox developed by Prof. Suyan Qu and Dr. Jianhua Zhang was used in the implementation of our proposed algorithm. We would like to express our gratitude for their excellent work in developing this valuable tool for researchers. LSSVM toolkit download and user's Guide can be found at https://www.esat.kuleuven.be/sista/lssvmlab/. We undertake not to use the toolbox for any commercial purposes.
 ```
 %% setting
 clear;
@@ -32,8 +32,7 @@ addpath('.\func');
     
 %% the tables and figures in the paper
 mainTab2_GS_Cubep_NUS
-mainTab45__NUS1_8
-mainTab4_DiffClusNum   
+mainTab45__NUS1_8   
 mainTab6_SelectAlgo    
 mainTab7_DiffClusNum
 mainTab8_DiffArgument
