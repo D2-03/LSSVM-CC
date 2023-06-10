@@ -1,0 +1,4 @@
+function normalized=normalizeChromaticity(data)
+normalized=data./repmat(sum(data, 2), 1, 3);
+% sum(data, 2),对data的行求和.
+% ./ : a./b 表示矩阵a中的每个元素除矩阵b中的相对应的元素
